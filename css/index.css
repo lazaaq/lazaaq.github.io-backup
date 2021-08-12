@@ -1,0 +1,237 @@
+body {
+    background-color: #242424;
+    font-family: sans-serif;
+}
+
+.header {
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+}
+.header ul {
+    display: flex;
+    align-items: center;
+}
+.header ul li {
+    list-style: none;
+}
+.header .brand {
+    font-weight: 700;
+    font-size: 3vw;
+    color: #EDEDED;
+}
+.header .menu1 {
+    margin-left: auto;
+    color: #EDEDED;
+    margin-right: 2vw;
+}
+.header .menu1 a {
+    text-decoration: none;
+    color: #EDEDED;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #171717;
+}
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .kiri {
+    width: 50vw;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+}
+.hero .kiri .nama {
+    font-size: 4vw;
+    color: #EDEDED;
+    font-weight: 700;
+    display: flex;
+}
+.hero .kiri .hl1 {
+    background-color: #DA0037;
+    height: 0.3vw;
+    width: 40vw;
+    margin: auto;
+}
+.hero .kiri .role {
+    color: #EDEDED;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+.hero .kiri .portofolio {
+    margin-top: 1vw;
+}
+.hero .kiri .portofolio button {
+    font-size: 1vw;
+}
+.hero .kanan {
+    width: 50vw;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+}
+.hero .kanan .image {
+    width: 100%;
+    text-align: center;
+}
+.hero .kanan .image img {
+    width: 50%;
+    height: auto;
+}
+
+
+.summary {
+    background-color: #171717;
+    height: fit-content;
+    padding: 5vw 0;
+}
+.summary .head .judul {
+    color: #EDEDED;
+    font-weight: 700;
+    font-size: 2vw;
+}
+.summary .body .deskripsi {
+    color: #EDEDED;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.projects {
+    background-color: #171717;
+    color: #EDEDED;
+    font-weight: 500;
+    height: fit-content;
+    padding: 5vw 0;
+}
+.projects .head .judul {
+    font-size: 2vw;
+    font-weight: 700;
+}
+.projects .body {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 1vw;
+}
+.projects .project {
+    background-color: #EDEDED;
+    padding: 2vw;
+    width: 30%;
+    border-radius: 0.5rem;
+}
+.projects .project .nama {
+    color: #171717;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+.projects .project .gambar-project {
+    margin-top: 1vw;
+}
+.projects .project .gambar-project img {
+    width: 100%;
+    height: auto;
+}
+.projects .project .deskripsi {
+    color: #171717;
+    font-weight: 300;
+    margin-top: 1vw;
+}
+.projects .project button {
+    margin-top: 1vw;
+}
+.projects span.project-lainnya {
+    margin-top: 1vw;
+}
+
+.skills {
+    background-color: #171717;
+    height: fit-content;
+    padding: 5vw 0;
+}
+.skills .head .judul {
+    color: #EDEDED;
+    font-weight: 700;
+    font-size: 2vw;
+}
+.skills .body {
+    margin-top: 1vw;
+}
+.skills .body .bidang {
+    margin-top: 2vw;
+}
+.skills .body .bidang-judul {
+    color: #EDEDED;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.skills .body .skill {
+    margin-top: 0.5vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.skills .body .skill .nama {
+    color: #EDEDED;
+    width: 20%;
+}
+.skills .body .stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills .body .stars .star {
+    background-color: greenyellow;
+    width: 1vw;
+    height: 1vw;
+    margin-left: 1vw;
+    border-radius: 50%;
+}
+.skills .body .stars .not-star {
+    background-color: red;
+    width: 1vw;
+    height: 1vw;
+    margin-left: 1vw;
+    border-radius: 50%;
+}
+
+.contact {
+    background-color: #171717;
+    height: fit-content;
+    padding: 5vw 0;
+}
+.contact .head .judul {
+    font-weight: 700;
+    font-size: 2vw;
+    color: #EDEDED;
+}
+.contact .body {
+    margin-top: 2vw;
+}
+.contact .body .sosmed {
+    display: flex;
+    align-items: center;
+    margin-top: 1vw;
+}
+.contact .body .sosmed .nama {
+    width: 30%;
+    color: #EDEDED;
+}
+
+.contact .body .sosmed .id a {
+    text-decoration: none;
+    color: #EDEDED;
+    transition: 0.3s;
+}
+.contact .body .sosmed .id a:hover {
+    color: #DA0037;
+    font-size: 1.3vw;
+    transition: 0.3s;
+}
