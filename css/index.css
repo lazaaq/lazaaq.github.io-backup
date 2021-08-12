@@ -20,6 +20,11 @@ body {
     font-size: 3vw;
     color: #EDEDED;
 }
+.header .brand img {
+    border-radius: 0.2rem;
+    height: 60px;
+    width: auto;
+}
 .header .menu1 {
     margin-left: auto;
     color: #EDEDED;
@@ -28,6 +33,12 @@ body {
 .header .menu1 a {
     text-decoration: none;
     color: #EDEDED;
+    transition: 0.3s;
+}
+.header .menu1 a:hover {
+    color: #DA0037;
+    transition: 0.3s;
+    font-size: 1.2rem;
 }
 
 
@@ -69,7 +80,7 @@ body {
 .hero .kiri .portofolio {
     margin-top: 1vw;
 }
-.hero .kiri .portofolio button {
+.hero .kiri .portofolio span {
     font-size: 1vw;
 }
 .hero .kanan {
@@ -85,6 +96,30 @@ body {
 .hero .kanan .image img {
     width: 50%;
     height: auto;
+}
+@media screen and (max-width: 576px) {
+    .hero .kanan {
+        display: none;
+    }
+    .hero .kiri {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .hero .kiri .nama {
+        font-size: 6vw;
+    }
+    .hero .kiri .hl1 {
+        width: 100%;
+        height: 1vw;
+        border-radius: 0.5rem;
+    }
+    .hero .kiri .role {
+        font-size: 2vw;
+    }
+    .hero .kiri .portofolio span {
+        font-size: 2vw;
+    }
 }
 
 
@@ -102,6 +137,7 @@ body {
     color: #EDEDED;
     font-weight: 300;
     text-align: justify;
+    font-size: 1vw;
 }
 
 .projects {
@@ -116,15 +152,17 @@ body {
     font-weight: 700;
 }
 .projects .body {
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
     margin-top: 1vw;
+}
+.projects .col-4 {
+    padding: 1vw;
+    height: 100%;
 }
 .projects .project {
     background-color: #EDEDED;
     padding: 2vw;
-    width: 30%;
+    width: 100%;
+    height: 100%;
     border-radius: 0.5rem;
 }
 .projects .project .nama {
@@ -143,12 +181,24 @@ body {
     color: #171717;
     font-weight: 300;
     margin-top: 1vw;
+    font-size: 1.5vw;
 }
-.projects .project button {
+.projects .project span {
     margin-top: 1vw;
+    font-size: 1.2vw;
 }
 .projects span.project-lainnya {
     margin-top: 1vw;
+    font-size: 1.2vw;
+}
+@media screen and (max-width: 991px) {
+    .projects .body {
+        display: block;
+    }
+    .projects .project {
+        width: 100%;
+        margin-top: 1rem;
+    }
 }
 
 .skills {
@@ -181,6 +231,7 @@ body {
 .skills .body .skill .nama {
     color: #EDEDED;
     width: 20%;
+    font-size: 1vw;
 }
 .skills .body .stars {
     display: flex;
@@ -223,12 +274,13 @@ body {
 .contact .body .sosmed .nama {
     width: 30%;
     color: #EDEDED;
+    font-size: 1.5vw;
 }
-
 .contact .body .sosmed .id a {
     text-decoration: none;
     color: #EDEDED;
     transition: 0.3s;
+    font-size: 1vw;
 }
 .contact .body .sosmed .id a:hover {
     color: #DA0037;
